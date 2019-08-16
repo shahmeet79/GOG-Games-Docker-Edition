@@ -10,10 +10,6 @@ RUN chmod 700 /var/lib/tor/hidden_service
 RUN echo "SocksPort 0.0.0.0:9050" >> /etc/tor/torrc
 RUN echo "HiddenServiceDir /var/lib/tor/hidden_service" >> /etc/tor/torrc
 RUN echo "HiddenServicePort 80 nginx:80" >> /etc/tor/torrc
-#COPY private_key /var/lib/tor/hidden_service/
-
-#RUN chmod 700 /var/lib/tor/hidden_service
-#RUN chmod 600 /var/lib/tor/hidden_service/private_key
 
 EXPOSE 9050
 
