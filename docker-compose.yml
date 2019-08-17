@@ -85,7 +85,7 @@ services:
   #===============#
   
     nginx:
-     image: nginx:1.17.0-alpine
+     image: nginx:1.17.3-alpine
      container_name: nginx
      image: nginx:latest
      restart: always
