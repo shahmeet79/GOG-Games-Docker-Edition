@@ -1,4 +1,4 @@
-FROM alpine:3.9.4
+FROM alpine:3.10.1
 
 RUN apk --update --allow-untrusted --repository http://dl-4.alpinelinux.org/alpine/edge/community/ add \
       tor \
