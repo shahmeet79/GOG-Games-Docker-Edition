@@ -60,7 +60,7 @@ services:
   #===============#
   
     elasticsearch:
-     image: blacktop/elasticsearch:6.6.2
+     image: blacktop/elasticsearch:6.8
      container_name: elasticsearch
      restart: always
      networks:
