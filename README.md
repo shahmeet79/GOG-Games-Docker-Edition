@@ -10,9 +10,6 @@ Easily setup and configure your own copy of [GOG Games](https://github.com/Machi
 *	Minimum 3GB of RAM
 *	Experience in using [Docker](https://www.docker.com/) is a plus
 
-## Current Issues
-**Very minor:** The NEW and UPDATED tags are only suppose to be on game cards while they are on the front page under NEW RELEASES or UPDATED GAMES. These tags are being retained in the search after being purged from the main page. A work around is to reindex the whole database in the Administration area.
-
 # Setup Instructions
 
 ## 1. Install Docker 
