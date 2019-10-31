@@ -47,7 +47,7 @@ services:
   #https://hub.docker.com/_/memcached
   
     memcached:
-     image: memcached:1.5.16-alpine
+     image: memcached:1.5.19-alpine
      container_name: memcached
      restart: always
      networks:
@@ -89,7 +89,7 @@ services:
   #https://hub.docker.com/_/nginx
   
     nginx:
-     image: nginx:1.17.3-alpine
+     image: nginx:1.17.5-alpine
      container_name: nginx
      restart: always
      networks:
