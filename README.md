@@ -10,9 +10,9 @@ Easily setup and configure your own copy of [GOG Games](https://github.com/Machi
 *	Minimum 3GB of RAM
 *	Experience in using [Docker](https://www.docker.com/) is a plus
 
-# Setup Instructions
+# Setup Instruction for Beginners.
 
-## 1. Install Docker 
+## 1. Installation of Docker 
 * Install Docker Engine and then Docker Compose
   * [Docker Engine](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
   * [Docker Compose](https://docs.docker.com/compose/install)
